@@ -1,0 +1,10 @@
+Classifier,Features,Mean Accuracy
+LogisticRegression(),Counts,0.7920870950610728
+LogisticRegression(),TfidfTransformer(use_idf=False),0.7266330323951142
+LogisticRegression(),TfidfTransformer(),0.8274030801911842
+MultinomialNB(),Counts,0.7728359001593202
+MultinomialNB(),TfidfTransformer(use_idf=False),0.7052575677110993
+MultinomialNB(),TfidfTransformer(),0.7738980350504514
+SGDClassifier(),Counts,0.7650026553372278
+SGDClassifier(),TfidfTransformer(use_idf=False),0.8112055231014339
+SGDClassifier(),TfidfTransformer(),0.8532926181625067
