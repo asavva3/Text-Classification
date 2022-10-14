@@ -1,0 +1,46 @@
+,Classifier,Features,Vectorizer Parameters,Mean Accuracy,Precision,Recall,F1
+0,knn,counts,{'vect__lowercase': True},0.352,0.421,0.352,0.357
+1,knn,counts,{'vect__stop_words': 'english'},0.364,0.567,0.364,0.401
+2,knn,counts,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}",0.352,0.421,0.352,0.357
+3,knn,counts,"{'vect__analyzer': 'char', 'vect__ngram_range': (3, 3)}",0.394,0.435,0.394,0.399
+4,knn,counts,{'vect__max_features': 10000},0.353,0.408,0.353,0.361
+5,knn,tf,{'vect__lowercase': True},0.408,0.489,0.408,0.417
+6,knn,tf,{'vect__stop_words': 'english'},0.624,0.637,0.624,0.626
+7,knn,tf,"{'vect__analyzer': 'word', 'vect__ngram_range': (2, 2)}",0.514,0.553,0.514,0.519
+8,knn,tf,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.442,0.513,0.442,0.453
+9,knn,tf,{'vect__max_features': 10000},0.413,0.478,0.413,0.421
+10,knn,tfidf,{'vect__lowercase': False},0.657,0.671,0.657,0.657
+11,knn,tfidf,{'vect__stop_words': 'english'},0.676,0.685,0.676,0.676
+12,knn,tfidf,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 1)}",0.659,0.674,0.659,0.66
+13,knn,tfidf,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.559,0.59,0.559,0.565
+14,knn,tfidf,{'vect__max_features': 10000},0.638,0.653,0.638,0.64
+15,nb,counts,{'vect__lowercase': False},0.799,0.81,0.799,0.789
+16,nb,counts,{'vect__stop_words': 'english'},0.796,0.804,0.796,0.785
+17,nb,counts,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}",0.816,0.827,0.816,0.81
+18,nb,counts,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.778,0.793,0.778,0.766
+19,nb,counts,{'vect__max_features': 10000},0.757,0.746,0.757,0.74
+20,nb,tf,{'vect__lowercase': True},0.833,0.834,0.833,0.831
+21,nb,tf,{'vect__stop_words': 'english'},0.832,0.833,0.832,0.831
+22,nb,tf,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}",0.835,0.837,0.835,0.834
+23,nb,tf,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.812,0.816,0.812,0.81
+24,nb,tf,{'vect__max_features': 10000},0.807,0.808,0.807,0.805
+25,nb,tfidf,{'vect__lowercase': False},0.837,0.838,0.837,0.835
+26,nb,tfidf,{'vect__stop_words': None},0.835,0.836,0.835,0.834
+27,nb,tfidf,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}",0.834,0.837,0.834,0.833
+28,nb,tfidf,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.805,0.809,0.805,0.802
+29,nb,tfidf,{'vect__max_features': 10000},0.811,0.812,0.811,0.81
+30,sgdc,counts,{'vect__lowercase': True},0.82,0.821,0.82,0.817
+31,sgdc,counts,{'vect__stop_words': 'english'},0.827,0.829,0.827,0.825
+32,sgdc,counts,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}",0.821,0.822,0.821,0.819
+33,sgdc,counts,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.752,0.764,0.752,0.751
+34,sgdc,counts,{'vect__max_features': 10000},0.795,0.8,0.795,0.794
+35,sgdc,tf,{'vect__lowercase': True},0.811,0.812,0.811,0.807
+36,sgdc,tf,{'vect__stop_words': 'english'},0.83,0.83,0.83,0.828
+37,sgdc,tf,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}",0.824,0.825,0.824,0.821
+38,sgdc,tf,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.805,0.805,0.805,0.802
+39,sgdc,tf,{'vect__max_features': 10000},0.792,0.795,0.792,0.788
+40,sgdc,tfidf,{'vect__lowercase': True},0.854,0.854,0.854,0.852
+41,sgdc,tfidf,{'vect__stop_words': 'english'},0.851,0.851,0.851,0.849
+42,sgdc,tfidf,"{'vect__analyzer': 'word', 'vect__ngram_range': (1, 2)}",0.859,0.86,0.859,0.858
+43,sgdc,tfidf,"{'vect__analyzer': 'char', 'vect__ngram_range': (4, 4)}",0.845,0.845,0.845,0.843
+44,sgdc,tfidf,{'vect__max_features': 10000},0.828,0.828,0.828,0.826
