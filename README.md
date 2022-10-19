@@ -24,3 +24,7 @@ good results but SGDC gives the best results. Hy-
 perparameter optimization makes a big difference
 for the classifiers. Laslty, limiting the available fea-
 tures gives worse results as expected.
+
+## Colaborators
+* [Ivan Horokhovskyi](https://github.com/doctorblinch)
+* [Andreas Savva](https://github.com/asavva3)
